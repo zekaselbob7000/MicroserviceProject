@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: arn:aws:s3:::s3azakidev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRESS_DB: azakidev
+  POSTGRESS_HOST: azakidev.cnrmn0v8wvz3.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100 
+metadata:
+  name: env-config
+  
